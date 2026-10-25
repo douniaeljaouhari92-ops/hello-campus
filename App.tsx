@@ -3,7 +3,7 @@ import { View, Text, Pressable, Alert, StyleSheet} from 'react-native';
 export default function App() {
   return (
   <View style={styles.container}>
-    <Text style={styles.titre}>FSA Ouarzazate</Text>
+    <Text style={styles.titre}>Bonjour Campus !</Text>
 
     <Text style={styles.sousTitre}>
       IAIL S5 - Developpement mobile
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
   },
   titre: {
     color: '#003796',
-    fontSize: 30,
+    fontSize: 26,
     fontWeight: 'bold',
   },
   sousTitre: {
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   },
   bouton: {
     marginTop: 24,
-    backgroundColor: '#008000',
+    backgroundColor: '#003796',
     paddingVertical: 13,
     paddingHorizontal: 28,
     borderRadius: 9,
